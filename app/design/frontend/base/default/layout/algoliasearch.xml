@@ -9,19 +9,6 @@
             <action method="addJs"><script>algoliasearch/internals/frontend/Function.prototype.bind.js</script></action>
             <action method="addJs"><script>algoliasearch/internals/frontend/algoliaBundle.min.js</script></action>
             <action method="addJs"><script>algoliasearch/internals/frontend/common.js</script></action>
-
-            <block type="core/text" name="algolia-polyfill">
-                <action method="setText">
-                    <text>
-                        <![CDATA[
-                            <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-                            <!--[if lte IE 9]>
-                                <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-                            <![endif]-->
-                        ]]>
-                    </text>
-                </action>
-            </block>
         </reference>
 
         <reference name="content">
